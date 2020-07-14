@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+
+	<TargetFramework>netcoreapp2.1</TargetFramework>
+	<RestoreAdditionalProjectSources>
+		https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180515-07/final/index.json
+	</RestoreAdditionalProjectSources>
+	  
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
